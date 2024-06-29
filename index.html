@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <label><img src="images/html.svg" alt="">HTML</label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+            <label><img src="images/css.svg" alt="">CSS</label>
+            <textarea id="css-code" onkeyup="run()"></textarea>
+            <label><img src="images/javascript.svg" alt="">JavaScript</label>
+            <textarea id="js-code" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+             <label><img src="images/play.svg" alt="">Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+</body>
+</html>
